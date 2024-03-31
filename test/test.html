@@ -89,6 +89,43 @@
           <!-- http://www.gwtproject.org/javadoc/latest/com/google/gwt/user/client/ui/Anchor.html -->
           <a class="gwt-Anchor">.gwt-Anchor</a>
         </p>
+        <p>
+          HTMX elements<br />
+          <!-- https://htmx.org/ -->
+          <a hx-get="/hx-get">hx-get</a>
+          <button hx-get="/hx-get">hx-get</button>
+          <button hx-post="/hx-post">
+            hx-post
+          </button>
+          <button hx-delete="/hx-delete">
+            hx-delete
+          </button>
+          <button hx-patch="/hx-patch">
+            hx-patch
+          </button>
+          <button hx-put="/hx-put">
+            hx-put
+          </button>
+          <input hx-post="/search">
+          <span hx-get="/test">This is a span</span>
+          <br />
+          <a data-hx-get="/data-hx-get">data-hx-get</a>
+          <button data-hx-get="/data-hx-get">data-hx-get</button>
+          <button data-hx-post="/data-hx-post">
+            data-hx-post
+          </button>
+          <button data-hx-delete="/data-hx-delete">
+            data-hx-delete
+          </button>
+          <button data-hx-patch="/data-hx-patch">
+            data-hx-patch
+          </button>
+          <button data-hx-put="/data-hx-put">
+            data-hx-put
+          </button>
+          <input data-hx-post="/search">
+          <span data-hx-get="/test">This is a span</span>
+        </p>
       </div>
 
       <div class="col">
@@ -110,6 +147,43 @@
             <option value="">Hello</option>
             <option value="">World</option>
           </select>
+        </p>
+        <p>
+          Disabled HTMX elements<br />
+          <!-- https://htmx.org/ -->
+          <button disabled hx-get="/hx-get">hx-get</button>
+          <button disabled hx-post="/hx-post">
+            hx-post
+          </button>
+          <button disabled hx-delete="/hx-delete">
+            hx-delete
+          </button>
+          <button disabled hx-patch="/hx-patch">
+            hx-patch
+          </button>
+          <button disabled hx-put="/hx-put">
+            hx-put
+          </button>
+          <input disabled hx-post="/search">
+          <input type="hidden" hx-post="/search">
+          <span hx-get="/test" contenteditable="false">This is a span</span>
+          <br />
+          <button disabled data-hx-get="/data-hx-get">data-hx-get</button>
+          <button disabled data-hx-post="/data-hx-post">
+            data-hx-post
+          </button>
+          <button disabled data-hx-delete="/data-hx-delete">
+            data-hx-delete
+          </button>
+          <button disabled data-hx-patch="/data-hx-patch">
+            data-hx-patch
+          </button>
+          <button disabled data-hx-put="/data-hx-put">
+            data-hx-put
+          </button>
+          <input disabled data-hx-post="/search">
+          <input type="hidden" data-hx-post="/search">
+          <span hx-get="/test" contenteditable="false">This is a span</span>
         </p>
         <p>
           Inside parent with width:0 and overflow:hidden:

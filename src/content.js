@@ -372,6 +372,18 @@ function findHints() {
       // GWT Anchor widget class
       // http://www.gwtproject.org/javadoc/latest/com/google/gwt/user/client/ui/Anchor.html
       '.gwt-Anchor',
+      // HTMX requests methods
+      // https://htmx.org/
+      '[hx-get]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[hx-post]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[hx-put]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[hx-patch]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[hx-delete]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[data-hx-get]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[data-hx-post]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[data-hx-put]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[data-hx-patch]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
+      '[data-hx-delete]:not([disabled]):not([type=hidden]):not([contenteditable=false])',
     ].join(','),
   )
 
